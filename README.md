@@ -23,7 +23,7 @@ https://github.com/cvs1578/CS5560/wiki/ICP3
 https://youtu.be/c3jWoB0iicY
 <br /> <br />
 
-ICP 3:
+ICP 4:
 <br />
 https://github.com/cvs1578/CS5560/wiki/ICP4
 <br />https://youtu.be/vGoU5iLX8jk
