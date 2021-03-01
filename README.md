@@ -35,3 +35,9 @@ ICP 5:
 https://github.com/cvs1578/CS5560/wiki/ICP5
 <br />https://youtu.be/Ieft53Z0pjU
 <br /> <br />
+
+ICP 6:
+<br />
+https://github.com/cvs1578/CS5560/wiki/ICP6
+<br />https://youtu.be/fn8ABlWrWa4
+<br /> <br />
