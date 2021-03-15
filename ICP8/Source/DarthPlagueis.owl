@@ -1,0 +1,353 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/kwond/ontologies/2021/2/untitled-ontology-10"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/kwond/ontologies/2021/2/untitled-ontology-10">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Force"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jedi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#apprentice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#be"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#everything"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#he"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#him"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#others"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#power"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#some"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#thing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#to_influence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tragedy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#you"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Predicates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#consider"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#could_save"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#could_use"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hear"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#keep"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#killed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#taught"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#was_losing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#would_tell"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Jedi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#would_tell"/>
+            <Class IRI="#you"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#apprentice"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#killed"/>
+            <Class IRI="#him"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#he"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#could_save"/>
+                <Class IRI="#others"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#could_use"/>
+                <Class IRI="#Force"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#could_use"/>
+                <Class IRI="#to_influence"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#keep"/>
+                <Class IRI="#ones"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#taught"/>
+                <Class IRI="#apprentice"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#taught"/>
+                <Class IRI="#everything"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#some"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#consider"/>
+            <Class IRI="#be"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#thing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#was_losing"/>
+            <Class IRI="#power"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#you"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hear"/>
+            <Class IRI="#tragedy"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Force"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jedi"/>
+        <Class IRI="#Subject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#apprentice"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#apprentice"/>
+        <Class IRI="#Subject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#be"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#everything"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#he"/>
+        <Class IRI="#Subject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#him"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ones"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#others"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#power"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#some"/>
+        <Class IRI="#Subject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thing"/>
+        <Class IRI="#Subject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#to_influence"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tragedy"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#you"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#you"/>
+        <Class IRI="#Subject"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Force"/>
+        <Class IRI="#apprentice"/>
+        <Class IRI="#be"/>
+        <Class IRI="#everything"/>
+        <Class IRI="#him"/>
+        <Class IRI="#ones"/>
+        <Class IRI="#others"/>
+        <Class IRI="#power"/>
+        <Class IRI="#to_influence"/>
+        <Class IRI="#tragedy"/>
+        <Class IRI="#you"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Jedi"/>
+        <Class IRI="#apprentice"/>
+        <Class IRI="#he"/>
+        <Class IRI="#some"/>
+        <Class IRI="#thing"/>
+        <Class IRI="#you"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#consider"/>
+        <ObjectProperty IRI="#Predicates"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#could_save"/>
+        <ObjectProperty IRI="#Predicates"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#could_use"/>
+        <ObjectProperty IRI="#Predicates"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hear"/>
+        <ObjectProperty IRI="#Predicates"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#keep"/>
+        <ObjectProperty IRI="#Predicates"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#killed"/>
+        <ObjectProperty IRI="#Predicates"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#taught"/>
+        <ObjectProperty IRI="#Predicates"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#was_losing"/>
+        <ObjectProperty IRI="#Predicates"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#would_tell"/>
+        <ObjectProperty IRI="#Predicates"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#could_save"/>
+        <Class IRI="#Subject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#could_use"/>
+        <Class IRI="#Subject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hear"/>
+        <Class IRI="#Subject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#keep"/>
+        <Class IRI="#Subject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#killed"/>
+        <Class IRI="#Subject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#taught"/>
+        <Class IRI="#Subject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#was_losing"/>
+        <Class IRI="#Subject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#would_tell"/>
+        <Class IRI="#Subject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#could_save"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#could_use"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hear"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#keep"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#killed"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#taught"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#was_losing"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#would_tell"/>
+        <Class IRI="#Object"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
