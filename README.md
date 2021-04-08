@@ -52,6 +52,6 @@ https://github.com/cvs1578/CS5560/wiki/ICP7
 
 ICP 8:
 <br />
-https://github.com/cvs1578/CS5560/wiki/ICP7
+https://github.com/cvs1578/CS5560/wiki/ICP8
 <br />https://youtu.be/g9WZF-GEWoI]
 <br /><br />
