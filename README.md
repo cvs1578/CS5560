@@ -55,3 +55,10 @@ ICP 8:
 https://github.com/cvs1578/CS5560/wiki/ICP8
 <br />https://youtu.be/g9WZF-GEWoI]
 <br /><br />
+
+ICP 10:
+<br />
+https://github.com/cvs1578/CS5560/wiki/ICP10
+<br />https://youtu.be/kEyczZEQQq4
+<br /><br />
+
