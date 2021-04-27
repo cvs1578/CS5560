@@ -67,3 +67,12 @@ ICP 11:
 https://github.com/cvs1578/CS5560/wiki/ICP11
 <br />https://youtu.be/t76kdWv6wR0
 <br /><br />
+
+
+
+ICP 12:
+<br />
+https://github.com/cvs1578/CS5560/wiki/ICP12
+<br /> https://youtu.be/rx9t_B_Rhs8
+<br /><br />
+
